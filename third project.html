@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+            <title> third project</title>
+                <link rel="icon" type="image/x-icon" href="C:\Users\Tunmise Alimi\Desktop\MY WEB PAGES\images\\favicon.ico.jpg">
+                    <link href="C:\Users\Tunmise Alimi\Desktop\MY WEB PAGES\CSS\third project.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="past">
+        <div class="main">
+            <img src="C:\Users\Tunmise Alimi\Pictures\nft art - Google Search_files\images_198.jpg" class="sad">
+            <br>
+            <form class="setting">
+                <h2 style="font-style: oblique; color: wheat; align-items: center;"><code>LOGIN</code></h2>
+                <label for="username"> Username:
+                    <input type="text" id="username" placeholder="username please...." name="username">
+                </label>
+                <br><br>
+                <label for="password"> Password: 
+                    <input type="password" id="password" placeholder="kindly input password" name="password" active>
+                </label>
+                <br><br>
+                <label for="email">E-mail Address: 
+                    <input type="email" id="email" placeholder="E-mail address?" name="email">
+                </label>
+                <br><br>
+                <p style="font-style: italic;"> Forgot <b>password</b>? Click <button type="button" value="forgot" class="forgot">Hint</button></p>
+                <h1 class="date"> 20-10-20<br><code> MEMORIAL!</code></h1>
+                <div class="buttons">
+                <button type="button" value="login" class="login">About Project</button>
+                <button type="button" value="signup" class="signup">SIGNUP!</button>
+                <button type="submit" value="submit" class="submit"> SUBMIT APPLICATION</button>
+                </div>
+            </form>
+        </div>
+        </div>
+        <p id="demo"></p>
+        <script>
+            setInterval(myFunction, 2000);
+
+            function myFunction() {
+            let d = new Date();
+
+                document.getElementById('demo').innerHTML = d.getHours() + ":" +
+                d.getMinutes() + ":" + 
+                d.getSeconds();
+            }
+        </script>
+    </body>
+</html>
